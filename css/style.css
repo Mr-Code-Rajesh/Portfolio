@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Lato:wght@300;700&family=Mukta:wght@300;400&family=PT+Serif:ital@1&family=Poppins:wght@300;400;500;600&family=Roboto+Serif:ital,opsz,wght@1,8..144,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+}
+body{
+   overflow-x: hidden;
+    font-family: 'lato',sans-serif;
+}
+
+         /*--- Home section start *-- /
+
+/* --- Naviagtion start --*/
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    background-color: rgba(0,0,0,0.75) !important;
+}
+.navbar-brand img{
+    height: 4rem;
+    padding-left: 2.2rem;
+}
+.navbar-nav li{
+    padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#1ebba3;
+}
+/* --- Naviagtion end --*/
+
+/* start landing page content -- */
+.bs-image{
+    width: 100%;
+    height: 100vh;
+  
+}
+.container-fluid{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)) ,url('../img/bg\ -1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.ld-center{
+ position: absolute;
+ left: 30%;
+ top: 40%;
+}
+.box{  
+    text-transform: uppercase;
+    left:28%;
+    font-family: 700;
+    color: #fff;
+    transition: all 1.3s linear;
+}
+.box h1{
+    font-size: 3.7rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+.box h3{
+    padding-left: 3rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    font-size: 2.5rem;
+}
+.box a{
+    position: relative;
+    left: 13rem;
+    top: 0.5rem;
+    text-shadow: 0.1rem 0.1rem 0.9rem rgba(0, 0, 0, 0);
+    border: 3px solid white;
+}
+
+/* End landing page content -- */
+
+
+
+            /*--- Home section end *-- /
+
+             /*------ course seection start ---*/
+#Course{
+    width: 100%;
+    min-height: 100px;
+    background-color: #fff !important;
+    z-index: 1;
+}
+.container{
+    padding: 5.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    color: rgba(0, 0, 0, 0.753);
+}
+.container p{
+    font-size: 1.3rem;
+}
+.container a{
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+}
+.container a:hover{
+    background-color: rgb(0, 68, 255);
+    
+}
+
+             /*------ course seection End ---*/
+
+
+             /*------ Feature seection start ---*/
+#Feature{
+    background-color: lightgrey;
+    width: 100%;
+    min-height: 200px;
+}
+.f-title{
+    padding: 3rem 1rem 1rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.774);
+}
+#Feature .bd{
+    border: 2px solid rgb(5, 142, 167);
+    width: 50px;
+    margin: 0.4rem 0 3rem 0;
+}
+.f-size{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 600;
+    text-align: center;
+}
+.f-para{
+    font-size: 1rem !important;
+    padding: 0 0.8rem;
+    color: rgba(0, 0, 0, 0.61);
+    font-weight: 600;
+    text-align: center;
+}
+.f-img{
+    margin: 0.5rem 6.3rem;
+}
+
+
+             /*------ Feature seection end ---*/
+
+             /*------ Resources seection start ---*/
+#Resources{
+    width: 100%;
+    min-height: 200px;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url('../img/apple1.jpg');
+    padding: 6.5rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.r-title{
+    text-align: center;
+    padding: 0.1rem 1rem 1rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+#Resources .be{
+    border: 2px solid green;
+    width: 90px;
+    margin: 0.1rem 0 3rem 31.7rem;
+}
+.r-size{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.r-para{
+    font-size: 1rem !important;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.r-img{
+    margin: 0.5rem 9.2rem;
+}
+             /*------ Resources seection end ---*/
+
+
+             /*------ Clients seection start ---*/
+             
+#Clients{
+    width: 100%;
+    min-height: 200px;
+    background-color: lightgray;
+    padding: 5rem 0.1rem;
+}          
+.c-title{   
+    text-align: center;
+    padding: 0.1rem 1rem 1rem;
+    font-weight: 600;
+    color:rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    
+}
+.cs{
+    border: 2px solid rgb(5, 142, 167);
+    width: 70px;
+    margin: 0.3rem 0 3rem 32.3rem;
+}
+.c-img{
+    width: 150px;
+    height: 150px;
+}
+.c-img img{
+    width: 100%;
+    height: 100%;
+    border-radius :50%;
+    transition: 0.5s linear;
+}
+.c-img img:hover{
+   transform: scale(1.1);
+}
+.c-box{
+   width: 550px;
+   display: flex;
+}
+.c-content{
+    width: 400px;
+    padding: 1.5rem 1rem 1rem 2rem;
+}
+.c-content .cpara{
+    text-indent: 50px;
+    color: rgba(0, 0, 0, 0.671);
+    font-weight: 600;
+
+}
+.c-bs{
+    border: 1px solid rgba(5, 143, 167, 0.829);
+    width: 100%;
+}
+.c-name{
+    font-style: italic;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.808);
+}
+.qute{
+    padding:0.6rem;
+}
+.qute img{
+    margin-bottom: 1rem;
+}
+
+
+             /*------ Clients seection end ---*/
+             
+             /*------ Contact seection start ---*/
+.con-page{
+    padding: 5.5rem 1rem 4rem 1rem;
+}
+.con-page p{
+    font-size: 1.5rem;
+}
+#c-btn{
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    border: none;
+} #c-btn:hover{
+    background-color: #1ebba3ee;
+}
+
+    /*** page 2 start */
+.con-page2{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+}
+.con-img{
+  margin: 0 auto;
+  padding: 1rem;
+}
+.con-img img{
+   width: 40px;
+   height: 40px;
+}
+.con-br{
+    width: 100%;
+    border: 1px solid white;
+}
+.c-end{
+    padding: 0.5rem;
+    font-weight: 600;
+}
+.co-para{
+    font-weight: 700;
+}
+.co-co{
+    font-weight: 600;
+}
+
+             /*------ Contact seection end ---*/
+ 
+
+
+             /* media quary start  576px  768 992 1200 */
+
+             /* 1200 start */
+
+@media screen and (max-width : 1200px) {
+    /* home page start */
+    body{
+        overflow-x: hidden;
+     }
+    .ld-center{
+        position: absolute;
+        left: 25%;
+        top: 40%;
+       }
+       .box{
+        color: white;
+       }
+       .box h1{
+           font-size: 3.4rem;
+       }
+       .box h3{
+           font-size: 2.3rem;
+       }
+       .box a{
+           position: relative;
+           left: 13rem;
+           top: 0.7rem;
+           font-size: 1rem;
+           font-weight: 700;
+       }
+    /* home page end */
+
+     /* client page start*/
+     .cs{
+        border: 2px solid rgb(5, 142, 167);
+        width: 70px;
+        margin: 0.3rem 0 3rem 27.1rem;
+    }
+    .c-row{
+        margin-left: 10rem !important;
+    }
+     /* client page end */
+
+     /*resouces page start */
+
+     .r-img{
+        margin: 0.5rem 8rem;
+    }
+     /*resouces page end */
+
+}
+   
+     
+
+      /* 1200 end */
+
+
+            /* 992 start */
+      @media screen and (max-width : 992px) {
+         /* home page start */
+         body{
+            overflow-x: hidden;
+         }
+         .ld-center{
+             position: absolute;
+             left: 22%;
+             top: 40%;
+        }
+        .box{
+            color: white;
+        }
+        .box h1{
+           font-size: 3rem;
+       }
+       .box h3{
+           font-size: 2rem;
+       }
+       .box a{
+           position: relative;
+           left: 10rem;
+           top: 0.7rem;
+           font-size: 1rem;      
+       }  
+         /* home page end */
+       
+         /* course pagr start */
+         .container h1{
+            text-align: center;
+        }
+        .container p{
+            text-align: center;
+            font-size: 1.1rem;
+        } 
+
+         /* course pagr end */
+
+
+         /* feature page start */
+         .f-img{
+            margin: 1rem 20rem;
+        }
+         /* feature page end */
+ 
+
+          /* Resourses page start */
+        #Resources .be{
+            margin: 0.1rem 0 3rem 18.7rem;
+        }
+        .r-size{
+            color: orangered;  
+        }
+        .r-para{
+            font-size: 1rem !important;
+            
+        }
+        .r-img{
+            margin: 0.5rem 20rem;
+        }
+        .col-lg-4{
+            padding: 1rem;
+        }
+
+          /* Resourses page end */
+
+     
+          /* client page start*/
+          .cs{
+             margin: 0.3rem 0 3rem 19.5rem;
+         }
+         .c-row{
+             margin-left: 6rem !important;
+         }
+          /* client page end */
+     }
+
+
+
+             /* 768  start */
+         @media screen and (max-width : 768px) {
+             /* home page start */
+             body{
+                overflow-x: hidden;
+             }
+             .ld-center{
+                 position: absolute;
+                 left: 20%;
+                 top: 40%;
+                }
+                .box{
+                    color: white;
+                }
+                .box h1{
+                    font-size: 2.4rem;
+                }
+                .box h3{
+                    font-size: 1.4rem;
+                }
+                .box a{
+                    position: relative;
+                    left: 8rem;
+                    top: 0.7rem;
+                    font-size: 0.8rem;      
+                }  
+             /* home page end */
+
+
+             /* course page Start */
+             .container h1{
+                font-size: 1.7rem;
+                text-align: center;
+            }
+            .container p{
+                text-align: center;
+                font-size: 1.2rem;
+            } 
+             /* course page end */
+
+    
+             /* feature page start */
+             .f-img{
+                margin: 1rem 20rem;
+            }
+             /* feature page end */
+     
+    
+              /* Resourses page start */
+            #Resources .be{
+                margin: 0.1rem 0 3rem 12.5rem;
+            }
+            .r-size{
+                font-size: 1.7rem;
+                color: orangered;  
+            }
+            .r-para{
+                font-size: 1.2rem !important;
+                
+            }
+            .r-img{
+                margin: 0.5rem 14rem;
+            }
+            .col-lg-4{
+                padding: 1rem;
+            }
+    
+              /* Resourses page end */
+    
+         
+              /* client page start*/
+              .cs{
+                 margin: 0.3rem 0 3rem 13.9rem;
+             }
+             .c-img img{
+                margin-left: 5.8rem !important;
+            }
+            .c-box{
+                display: flex;
+                flex-direction: column;
+            }
+            
+              /* client page end */
+         } 
+           /* 768 px end */
+
+
+
+         
+     /* 576  start */
+     @media screen and (max-width : 576px) {
+         
+         /* home page start */
+         body{
+            overflow-x: hidden;
+         }
+         .ld-center{
+            position: absolute;
+            left: 12%;
+            top: 40%;
+           }
+           .box{  
+               color: white;
+           }
+           .box h1{
+               font-size: 1.9rem;
+           }
+           .box h3{
+               font-size: 1.3rem;
+               position: relative;
+               left:-15px;
+           }
+           .box a{
+               position: relative;
+               left: 7rem;
+               top: 0.7rem;
+               font-size: 0.8rem;      
+           }  
+        /* home page end */
+
+
+        /* course page Start */
+        .container h1{
+           font-size: 1.7rem;
+           text-align: center;
+       }
+       .container p{
+           text-align: center;
+           font-size: 1.2rem;
+       } 
+        /* course page end */
+
+
+        /* feature page start */
+        .f-img{
+           margin: 1rem 20rem;
+       }
+        /* feature page end */
+
+
+         /* Resourses page start */
+       #Resources .be{
+           margin: 0.1rem 0 3rem 9.9rem;
+       }
+       .r-size{
+           font-size: 1.7rem;
+           color: orangered;  
+       }
+       .r-para{
+           font-size: 1.2rem !important;
+           
+       }
+       .r-img{
+           margin: 0.5rem 11rem;
+       }
+       .col-lg-4{
+           padding: 1rem;
+       }
+
+         /* Resourses page end */
+
+    
+         /* client page start*/
+         .cs{
+            margin: 0.3rem 0 3rem 10.5rem;
+        }
+        .c-img img{
+            margin-left: 2rem !important;
+        }
+        .c-box{
+            display: flex;
+            flex-direction: column;
+        }
+        .c-content{
+            margin-left: -5.7rem;
+        }
+         /* client page end */
+    } 
+        
+     
+    /* 576px end ***/

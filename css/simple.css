@@ -1,0 +1,50 @@
+
+body{
+    margin-top: 60px;
+}
+body::before{
+    content: 'Xl';
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width:576px) {
+    body::before{
+        content: 'XS';
+    }    
+}
+
+@media (min-width : 576px) {
+    body::before{
+        content: 'SM';
+    }    
+}
+
+@media (min-width:768px) {
+    body::before{
+        content: 'MD';
+    }    
+}
+
+@media (min-width:992px) {
+    body::before{
+        content: 'LG';
+    }    
+}
+
+@media (min-width:1200px) {
+    body::before{
+        content: 'XL';
+    }    
+}
+
+@media (min-width:1400px) {
+    body::before{
+        content: 'XXL';
+    }    
+}
