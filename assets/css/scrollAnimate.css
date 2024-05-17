@@ -1,0 +1,135 @@
+/* ======= ---- Fade Left Start ---- ====== */
+
+.fade-animate-left{
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-100%);
+    transition: all 1s ease;
+}
+.fade-left-show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+/* ======= ---- Fade Left End ---- ====== */
+
+
+/* ======= ---- Fade Right Start ---- ====== */
+
+.fade-animate-right{
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(100%);
+    transition: all 1s linear;
+}
+.fade-right-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* ======= ---- Fade Right End ---- ====== */
+
+
+.count-box:nth-child(1){
+    transition-delay: 300ms;
+}
+.count-box:nth-child(2){
+    transition-delay: 600ms;
+}
+.count-box:nth-child(3){
+    transition-delay: 300ms;
+}
+.count-box:nth-child(4){
+    transition-delay: 600ms;
+}
+
+
+
+/* ======= ---- Fade Down Start ---- ====== */
+
+.fade-animate-down{
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateY(100%);
+    transition: all 1s ease;
+}
+.fade-down-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+/* ======= ---- Fade Down End ---- ====== */
+
+.progress:nth-child(1){
+    transition-delay: 200ms;
+}
+.progress:nth-child(2){
+    transition-delay: 400ms;
+}
+
+.progress:nth-child(3){
+    transition-delay: 600ms;
+}
+.progress:nth-child(4){
+    transition-delay: 800ms;
+}
+.progress:nth-child(5){
+    transition-delay: 200ms;
+}
+.progress:nth-child(6){
+    transition-delay: 400ms;
+}
+.progress:nth-child(7){
+    transition-delay: 600ms;
+}
+.progress:nth-child(8){
+    transition-delay: 800ms;
+}
+
+
+/* .icon-box-main:nth-child(1){
+    animation-delay: 200ms;
+}
+.icon-box-main:nth-child(2){
+    animation-delay: 400ms;
+}
+.icon-box-main:nth-child(3){
+    animation-delay: 600ms;
+}
+.icon-box-main:nth-child(4){
+    animation-delay: 800ms;
+}
+.icon-box-main:nth-child(5){
+    animation-delay: 200ms;
+}
+.icon-box-main:nth-child(6){
+    animation-delay: 400ms;
+}
+.icon-box-main:nth-child(7){
+    animation-delay: 600ms;
+}
+.icon-box-main:nth-child(8){
+    animation-delay: 800ms;
+} */
+
+
+/* ======= ---- Fade Top Start ---- ====== */
+
+.fade-animate-top{
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateY(-100%);
+    transition: all 1s ease;
+}
+.fade-top-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+
+/* ======= ---- Fade Top End ---- ====== */
+
