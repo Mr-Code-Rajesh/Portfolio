@@ -1,14 +1,14 @@
 /* navbar scolling animation */
-window.addEventListener("scroll",()=>{
+// window.addEventListener("scroll",()=>{
 
-  const navAnimation = document.getElementById("header");
-  if(window.scrollY>0){
-    navAnimation.classList.add("nav-bg-color");
-  }else{
-    navAnimation.classList.remove("nav-bg-color");
-  }
+//   const navAnimation = document.getElementById("header");
+//   if(window.scrollY>0){
+//     navAnimation.classList.add("nav-bg-color");
+//   }else{
+//     navAnimation.classList.remove("nav-bg-color");
+//   }
 
-});
+// });
 
 
 
