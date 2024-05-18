@@ -1,4 +1,4 @@
-/* navbar scolling animation */
+/* navbar scolling animation
 // window.addEventListener("scroll",()=>{
 
 //   const navAnimation = document.getElementById("header");
@@ -10,6 +10,7 @@
 
 // });
 
+ */
 
 
 /* navbar scolling animation end */
