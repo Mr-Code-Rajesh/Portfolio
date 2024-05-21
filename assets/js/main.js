@@ -1,5 +1,5 @@
-/* navbar scolling animation */
-window.addEventListener("scroll",()=>{
+/* navbar scolling animation
+ window.addEventListener("scroll",()=>{
 
   const navAnimation = document.getElementById("header");
   const nav_zindex   = document.getElementById("navbar");
@@ -11,8 +11,9 @@ window.addEventListener("scroll",()=>{
     navAnimation.classList.remove("nav-bg-color");
   }
 
-});
+ });
 
+ */
 
 
 /* navbar scolling animation end */
