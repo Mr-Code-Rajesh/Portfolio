@@ -2,8 +2,11 @@
 window.addEventListener("scroll",()=>{
 
   const navAnimation = document.getElementById("header");
-  if(window.scrollY>0){
+  const nav_zindex   = document.getElementById("navbar");
+  if(window.scrollY> 150){
     navAnimation.classList.add("nav-bg-color");
+    nav_zindex.style.zIndex = 99999;
+  
   }else{
     navAnimation.classList.remove("nav-bg-color");
   }

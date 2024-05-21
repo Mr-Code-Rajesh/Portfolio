@@ -1,3 +1,8 @@
+:root {
+  --color-one: hsl(15 90% 55%);
+  --color-two: hsl(40 95% 55%);
+}
+
 .Aurora-animated {
   position: absolute;
   height: 100vh;
@@ -85,3 +90,20 @@
     -o-transform: rotate(-2turn) translate(200px) rotate(2turn);
 }
 }
+
+/* 
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
